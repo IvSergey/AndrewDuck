@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AndrewDuck</title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  <link href="./css/index.css" rel="stylesheet"></head>
+  <body>
+    <div class="wrapper">
+<header class="header">
+  <div class="header__content container">
+    <div class="header__logo"><img class="logo-pic" src="img/logo.png" alt="logo"></div>
+    <div class="header__title">
+      <h1 class="header__title-text">Изготовление мужской одежды премиум класса по индивидуальным меркам заказчика с 1998 года</h1>
+    </div>
+    <div class="header__phone"><a class="header__phone-text" href="+78125233850" type="tel">+7 (812) 523 38 50</a></div>
+  </div>
+</header>
+<nav class="navigation">
+  <div class="navigation__content container">
+    <div class="navigation__logo"><img class="nav-pic" src="img/logo.svg" alt="logo"></div>
+    <ul class="navigation__list">
+      <li class="navigation__item"><a class="navigation__link" href="#">О компании</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#">Сорочки</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#">Костюмы</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#">Аксессуары</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#">Сертификаты</a></li>
+      <li class="navigation__item"><a class="navigation__link" href="#">Контакты</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="hero">
+  <div class="slider">
+    <div class="owl-carousel img-background">
+      <div>           <img src="img/photo1.png" alt="">
+        <div class="carus__content container">
+          <div class="carus__wrap carus__wrap_1">
+            <h1 class="carus__title">Дорогой подарок дорогому мужчине</h1>
+            <p class="carus__text">Пошив классической муужской одежды по индивидуальным меркам с 1998 года</p>
+            <button class="carus__btn">Купить сертификат</button>
+          </div>
+        </div>
+      </div>
+      <div> <img src="img/photo2.png" alt="">
+        <div class="carus__content container">
+          <div class="carus__wrap">
+            <h1 class="carus__title">Дорогой подарок дорогому мужчине</h1>
+            <p class="carus__text">Пошив классической муужской одежды по индивидуальным меркам с 1998 года</p>
+            <button class="carus__btn">Купить сертификат</button>
+          </div>
+        </div>
+      </div>
+      <div>  <img src="img/photo3.png" alt="">
+        <div class="carus__content container">
+          <div class="carus__wrap">
+            <h1 class="carus__title">Дорогой подарок дорогому мужчине</h1>
+            <p class="carus__text">Пошив классической муужской одежды по индивидуальным меркам с 1998 года</p>
+            <button class="carus__btn">Купить сертификат</button>
+          </div>
+        </div>
+      </div>
+      <div>  <img src="img/photo4.png" alt="">
+        <div class="carus__content container">
+          <div class="carus__wrap">
+            <h1 class="carus__title">Дорогой подарок дорогому мужчине</h1>
+            <p class="carus__text">Пошив классической муужской одежды по индивидуальным меркам с 1998 года</p>
+            <button class="carus__btn">Купить сертификат</button>
+          </div>
+        </div>
+      </div>
+    </div><a class="button__link" href="#catalog">          
+      <button class="scroll_down" id="scroll_down"> </button></a>
+  </div>
+</div>
+<div class="advantages">
+  <div class="advantages__content container"></div>
+</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+          let carus = $(".owl-carousel");
+          carus.owlCarousel({
+            autoplay: true,
+            autoplaySpeed: 1000,
+            loop: true,
+           
+            items: 1,
+            margin: 2,
+            autoplayTimeout: 7000,
+          });
+      
+      });
+    </script>
+  <script type="text/javascript" src="./js/common.js"></script><script type="text/javascript" src="./js/index.js"></script></body>
+</html>
